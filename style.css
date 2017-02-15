@@ -1,0 +1,120 @@
+nav {
+  display: flex;
+  justify-content:space-between;
+  background-color: black;
+  color:white;
+}
+
+nav ul {
+  list-style-type: none; 
+}
+
+nav img{
+  margin-left:20px;
+  width:180px;
+}
+
+header {
+background-image:url("assets/images/kayak-bkgd.jpg");
+background-size: 100% auto;
+height:500px;
+width: 100%;
+color: white;
+}
+
+header-texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-button {
+  border: 0;
+  padding: 15px;
+  background-color: tomato;
+  font-size: 16px;
+  color:white;
+  border-radius: 30px;
+  transition: all 0.5s ease 0.5s;
+}
+
+button:hover {
+  background-color: salmon;
+  font-size: 100%;
+}
+
+
+
+
+p {
+  font-family: KarlaRegular;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+
+.homepage-about-article {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-images { 
+    display: flex;
+    flex-direction: row;
+}
+
+.rentals-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+table {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row-one {
+  background-color: lightgray; 
+}
+
+.column-one {
+  text-align: left;
+}
+
+
+footer {
+  background-color:black;
+  color: white;
+  display:flex;
+  flex-direction: column;
+}
+
+footer p {
+  text-align: left;
+  margin: 15px;
+}
+
+.homepage-footer-address {
+  color:grey;
+}
+
+footer div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
